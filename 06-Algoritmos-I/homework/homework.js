@@ -1,6 +1,7 @@
 'use strict'
 // No cambies los nombres de las funciones.
 
+
 function factorear(num) {
   // Factorear el número recibido como parámetro y devolver en un array
   // los factores por los cuales se va dividiendo a dicho número (De menor a mayor)
@@ -14,7 +15,19 @@ function bubbleSort(array) {
   // el array recibido como parámetro
   // Devolver el array ordenado resultante
   // Tu código:
-
+  var tamanio=array.length;
+  for(let i=0;i<tamanio;i++){
+    for(let j=0;j<(tamanio-i-1);j++){
+      if(array[j] > array[j+1]){
+         
+        // If the condition is true then swap them
+        var temp = array[j]
+        array[j] = array[j + 1]
+        array[j+1] = temp
+      }
+    }
+  }
+  return array;
 }
 
 

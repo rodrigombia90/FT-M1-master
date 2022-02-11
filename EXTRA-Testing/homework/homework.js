@@ -19,4 +19,5 @@ npm: node package manager (controlador de paquetes) > es la play store de java s
 
 json > javascript object notation
 es un objeto de javascript, y los valores entre las llaves van entre comillas dobles
+
 */
