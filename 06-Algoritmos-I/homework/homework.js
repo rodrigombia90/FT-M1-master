@@ -48,6 +48,19 @@ function insertionSort(array) {
   // el array recibido como parámetro utilizando arreglos
   // Devolver el array ordenado resultante
   // Tu código:
+  var tamanio=array.length;
+  for(let i=0;i<tamanio;i++){
+    for(let j=0;j<(tamanio-i-1);j++){
+      if(array[j] > array[j+1]){
+         
+        // If the condition is true then swap them
+        var temp = array[j]
+        array[j] = array[j + 1]
+        array[j+1] = temp
+      }
+    }
+  }
+  return array;
 
 }
 
@@ -57,7 +70,19 @@ function selectionSort(array) {
   // el array recibido como parámetro utilizando dos arreglos
   // Devolver el array ordenado resultante
   // Tu código:
-
+  var tamanio=array.length;
+  for(let i=0;i<tamanio;i++){
+    for(let j=0;j<(tamanio-i-1);j++){
+      if(array[j] > array[j+1]){
+         
+        // If the condition is true then swap them
+        var temp = array[j]
+        array[j] = array[j + 1]
+        array[j+1] = temp
+      }
+    }
+  }
+  return array;
 }
 
 
