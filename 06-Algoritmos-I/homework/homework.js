@@ -28,6 +28,7 @@ function bubbleSort(array) {
   // Devolver el array ordenado resultante
   // Tu código:
   var tamanio=array.length;
+  //arr = [4,8,6,7,3,2,12]
   for(let i=0;i<tamanio;i++){
     for(let j=0;j<(tamanio-i-1);j++){
       if(array[j] > array[j+1]){
