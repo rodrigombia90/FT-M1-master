@@ -31,8 +31,6 @@ function bubbleSort(array) {
   for(let i=0;i<tamanio;i++){
     for(let j=0;j<(tamanio-i-1);j++){
       if(array[j] > array[j+1]){
-         
-        // If the condition is true then swap them
         var temp = array[j]
         array[j] = array[j + 1]
         array[j+1] = temp
